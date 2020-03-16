@@ -1,9 +1,10 @@
 import vue from 'rollup-plugin-vue';
 
 export default {
-  input: 'src/index.js',
+  // Browser build
+  input: 'src/wrapper.js',
   output: {
-    format: 'esm',
+    format: 'iife',
     file: 'dist/index.js'
   },
   plugins: [

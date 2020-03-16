@@ -1,8 +1,9 @@
 {
-  "name": "mithirl",
+  "name": "mithril",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/index.js",
+  "browser": "./dist/index.js",
+  "unpkg": "./dist/index.js",
   "scripts": {
     "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
