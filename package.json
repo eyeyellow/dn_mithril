@@ -2,9 +2,9 @@
   "name": "mithril",
   "version": "1.0.0",
   "description": "",
-  "module": "./dist/library.esm.js",
-  "browser": "./dist/index.js",
-  "unpkg": "./dist/index.js",
+  "module": "./dist/mithril.esm.js",
+  "browser": "./dist/mithril.js",
+  "unpkg": "./dist/mithril.js",
   "scripts": {
     "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"

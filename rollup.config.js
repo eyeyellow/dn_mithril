@@ -6,7 +6,7 @@ export default [
     input: 'src/wrapper.js',
     output: {
       format: 'iife',
-      file: 'dist/index.js'
+      file: 'dist/mithril.js'
     },
     plugins: [
       vue()
@@ -14,10 +14,10 @@ export default [
   },
   // ES6 module build
   {
-    input: 'src/index.js',
+    input: 'src/mithril.js',
     output: {
       format: 'esm',
-      file: 'dist/index.esm.js'
+      file: 'dist/mithril.esm.js'
     },
     plugins: [
       vue()
