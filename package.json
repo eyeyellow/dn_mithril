@@ -2,6 +2,7 @@
   "name": "mithril",
   "version": "1.0.0",
   "description": "",
+  "module": "./dist/library.esm.js",
   "browser": "./dist/index.js",
   "unpkg": "./dist/index.js",
   "scripts": {
