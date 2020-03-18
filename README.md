@@ -4,6 +4,10 @@ This is my first attempt at creating a build system for our in-house component l
 
 This setup currently allows us to output two bundles - an iife and an ES6 module.
 
+## Building Instructions
+- Run `npm install` to make sure that you have the dev dependencies (`rollup`, `rollup-plugin-vue`, and `vue-template-compiler`)
+- Run `npm run build` to generate the bundled library
+
 ## Testing Instructions
 
 Each of the two bundles have slightly different testing instructions.
